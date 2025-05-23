@@ -1,0 +1,424 @@
+{
+  "praias": [
+    {
+      "nome": "Ponta d'Areia",
+      "pH": 7.5,
+      "condicao": "Própria",
+      "poluicao": "10%",
+      "ano_coleta": 2023,
+      "latitude": -2.4969731,
+      "longitude": -44.3049733,
+      "estado": "Maranhão"
+    },
+    {
+      "nome": "Praia do Calhau",
+      "pH": 7.4,
+      "condicao": "Imprópria",
+      "poluicao": "15%",
+      "ano_coleta": 2023,
+      "latitude": -2.4831861,
+      "longitude": -44.2599951,
+      "estado": "Maranhão"
+    },
+    {
+      "nome": "Praia de São Marcos",
+      "pH": 7.4,
+      "condicao": "Própria",
+      "poluicao": "5%",
+      "ano_coleta": 2023,
+      "latitude": -2.4884344,
+      "longitude": -44.2872955,
+      "estado": "Maranhão"
+    },
+    {
+      "nome": "Praia do Olho d'Água",
+      "pH": 7.6,
+      "condicao": "Própria",
+      "poluicao": "7%",
+      "ano_coleta": 2023,
+      "latitude": -2.4784841,
+      "longitude": -44.2248793,
+      "estado": "Maranhão"
+    },
+    {
+      "nome": "Praia do Meio",
+      "pH": 7.2,
+      "condicao": "Imprópria",
+      "poluicao": "20%",
+      "ano_coleta": 2023,
+      "latitude": -2.4699315,
+      "longitude": -44.2072146,
+      "estado": "Maranhão"
+    },
+    {
+      "nome": "Praia de Pajuçara",
+      "pH": 7.7,
+      "condicao": "Própria",
+      "poluicao": "3%",
+      "ano_coleta": 2023,
+      "latitude": -9.6711334,
+      "longitude": -35.7135816,
+      "estado": "Alagoas"
+    },
+    {
+      "nome": "Praia do Araçagy",
+      "pH": 7.3,
+      "condicao": "Imprópria",
+      "poluicao": "18%",
+      "ano_coleta": 2023,
+      "latitude": -2.4652465,
+      "longitude": -44.1975838,
+      "estado": "Maranhão"
+    },
+    {
+      "nome": "Praia do Caolho",
+      "pH": 7.5,
+      "condicao": "Própria",
+      "poluicao": "2%",
+      "ano_coleta": 2023,
+      "latitude": -2.4812081,
+      "longitude": -44.2403708,
+      "estado": "Maranhão"
+    },
+    {
+      "nome": "Praia do Amor",
+      "pH": 7.7,
+      "condicao": "Própria",
+      "poluicao": "1%",
+      "ano_coleta": 2023,
+      "latitude": -6.2343569,
+      "longitude": -35.040176,
+      "estado": "Rio Grande do Norte"
+    },
+    {
+      "nome": "Praia do Carimã",
+      "pH": 7.8,
+      "condicao": "Própria",
+      "poluicao": "2%",
+      "ano_coleta": 2023,
+      "latitude": -2.4071334,
+      "longitude": -44.0839914,
+      "estado": "Maranhão"
+    },
+    {
+      "nome": "Praia do Forte",
+      "pH": 7.5,
+      "condicao": "Própria",
+      "poluicao": "6%",
+      "ano_coleta": 2023,
+      "latitude": -12.5769881,
+      "longitude": -38.0085482,
+      "estado": "Bahia"
+    },
+    {
+      "nome": "Praia do Rosa",
+      "pH": 7.4,
+      "condicao": "Própria",
+      "poluicao": "7%",
+      "ano_coleta": 2023,
+      "latitude": -28.1293077,
+      "longitude": -48.6400542,
+      "estado": "Santa Catarina"
+    },
+    {
+      "nome": "Praia de Barra Grande",
+      "pH": 7.5,
+      "condicao": "Própria",
+      "poluicao": "5%",
+      "ano_coleta": 2023,
+      "latitude": -13.885924322810121,
+      "longitude": -38.94844143196891,
+      "estado": "Bahia"
+    },
+    {
+      "nome": "Praia do Panaquatira",
+      "pH": 7.3,
+      "condicao": "Imprópria",
+      "poluicao": "20%",
+      "ano_coleta": 2023,
+      "latitude": -2.489479,
+      "longitude": -44.0385431,
+      "estado": "Maranhão"
+    },
+    {
+      "nome": "Praia de São José de Ribamar",
+      "pH": 7.4,
+      "condicao": "Própria",
+      "poluicao": "8%",
+      "ano_coleta": 2023,
+      "latitude": -2.5593,
+      "longitude": -44.1057,
+      "estado": "Maranhão"
+    },
+    
+  {
+    "nome": "Praia de São José de Ribamar",
+    "original_latitude": -2.5593,
+    "original_longitude": -44.1057,
+    "confirmed_latitude": -2.58464,
+    "confirmed_longitude": -44.12582,
+    "estado": "Maranhão",
+    "status": "Confirmado (Fonte Externa)"
+  },
+  {
+    "nome": "Praia de Itapiracó",
+    "original_latitude": -2.5838,
+    "original_longitude": -44.111,
+    "confirmed_latitude": -2.5838,
+    "confirmed_longitude": -44.111,
+    "estado": "Maranhão",
+    "status": "Não Confirmado (Usando Original)"
+  },
+  {
+    "nome": "Praia do Patacho",
+    "original_latitude": -9.16,
+    "original_longitude": -35.33,
+    "confirmed_latitude": -9.1961776,
+    "confirmed_longitude": -35.3149792,
+    "estado": "Alagoas",
+    "status": "Confirmado (Google Maps)"
+  },
+  {
+    "nome": "Praia do Maiobão",
+    "original_latitude": -2.5225,
+    "original_longitude": -44.1432,
+    "confirmed_latitude": -2.5225,
+    "confirmed_longitude": -44.1432,
+    "estado": "Maranhão",
+    "status": "Não Confirmado (Usando Original)"
+  },
+  {
+    "nome": "Praia do Gunga",
+    "original_latitude": -9.7354,
+    "original_longitude": -35.7992,
+    "confirmed_latitude": -9.8593898,
+    "confirmed_longitude": -35.9040769,
+    "estado": "Alagoas",
+    "status": "Confirmado (Google Maps)"
+  },
+  {
+    "nome": "Praia do Carro Quebrado",
+    "original_latitude": -9.9097,
+    "original_longitude": -35.7561,
+    "confirmed_latitude": -9.3595581,
+    "confirmed_longitude": -35.4744458,
+    "estado": "Alagoas",
+    "status": "Confirmado (Google Maps)"
+  },
+  {
+    "nome": "Praia do Pontal",
+    "original_latitude": -9.5651,
+    "original_longitude": -35.7259,
+    "confirmed_latitude": -9.6954417, 
+    "confirmed_longitude": -35.7753055,
+    "estado": "Alagoas",
+    "status": "Confirmado (Google Maps - Pontal da Barra)"
+  },
+  {
+    "nome": "Praia do Meio",
+    "original_latitude": -5.7901,
+    "original_longitude": -35.2047,
+    "confirmed_latitude": -5.7776875,
+    "confirmed_longitude": -35.1949411,
+    "estado": "Rio Grande do Norte",
+    "status": "Confirmado (Google Maps)"
+  },
+  {
+    "nome": "Praia de Búzios",
+    "original_latitude": -5.741,
+    "original_longitude": -35.1957,
+    "confirmed_latitude": -6.0186152,
+    "confirmed_longitude": -35.109259,
+    "estado": "Rio Grande do Norte",
+    "status": "Confirmado (Google Maps)"
+  },
+  {
+    "nome": "Praia de Redinha",
+    "original_latitude": -5.7429,
+    "original_longitude": -35.2551,
+    "confirmed_latitude": -5.7471708,
+    "confirmed_longitude": -35.2040387,
+    "estado": "Rio Grande do Norte",
+    "status": "Confirmado (Google Maps)"
+  },
+  {
+    "nome": "Praia do Flamengo",
+    "original_latitude": -12.9117,
+    "original_longitude": -38.3456,
+    "confirmed_latitude": -12.935669,
+    "confirmed_longitude": -38.3312868,
+    "estado": "Bahia",
+    "status": "Confirmado (Google Maps)"
+  },
+  {
+    "nome": "Praia de Stella Maris",
+    "original_latitude": -12.9001,
+    "original_longitude": -38.3187,
+    "confirmed_latitude": -12.9488167,
+    "confirmed_longitude": -38.341097,
+    "estado": "Bahia",
+    "status": "Confirmado (Google Maps)"
+  },
+  {
+    "nome": "Praia do Farol da Barra",
+    "original_latitude": -12.9797,
+    "original_longitude": -38.5105,
+    "confirmed_latitude": -13.0098997,
+    "confirmed_longitude": -38.5284848,
+    "estado": "Bahia",
+    "status": "Confirmado (Google Maps - Farol da Barra)"
+  },
+  {
+    "nome": "Praia da Lagoinha do Leste",
+    "original_latitude": -27.7333,
+    "original_longitude": -48.5483,
+    "confirmed_latitude": -27.7732103,
+    "confirmed_longitude": -48.4863806,
+    "estado": "Santa Catarina",
+    "status": "Confirmado (Google Maps)"
+  },
+  {
+    "nome": "Praia Brava",
+    "original_latitude": -27.3929,
+    "original_longitude": -48.5377,
+    "confirmed_latitude": -27.4015299,
+    "confirmed_longitude": -48.4130314,
+    "estado": "Santa Catarina",
+    "status": "Confirmado (Google Maps)"
+  },
+  {
+    "nome": "Praia do Campeche",
+    "original_latitude": -27.6711,
+    "original_longitude": -48.5397,
+    "confirmed_latitude": -27.662215,
+    "confirmed_longitude": -48.4734326,
+    "estado": "Santa Catarina",
+    "status": "Confirmado (Google Maps - Campeche)"
+  },
+    {
+      "nome": "Praia do Marceneiro",
+      "pH": 7.5,
+      "condicao": "Própria",
+      "poluicao": "3%",
+      "ano_coleta": 2023,
+      "latitude": -9.17,
+      "longitude": -35.34,
+      "estado": "Alagoas"
+    },
+    {
+      "nome": "Praia de Ipioca",
+      "pH": 7.4,
+      "condicao": "Própria",
+      "poluicao": "5%",
+      "ano_coleta": 2023,
+      "latitude": -9.6,
+      "longitude": -35.7,
+      "estado": "Alagoas"
+    },
+    {
+      "nome": "Praia de Genipabu",
+      "pH": 7.5,
+      "condicao": "Própria",
+      "poluicao": "6%",
+      "ano_coleta": 2023,
+      "latitude": -5.7,
+      "longitude": -35.2,
+      "estado": "Rio Grande do Norte"
+    },
+    {
+      "nome": "Praia de Areia Preta",
+      "pH": 7.4,
+      "condicao": "Própria",
+      "poluicao": "7%",
+      "ano_coleta": 2023,
+      "latitude": -5.8,
+      "longitude": -35.21,
+      "estado": "Rio Grande do Norte"
+    },
+    {
+      "nome": "Praia de Cotovelo",
+      "pH": 7.6,
+      "condicao": "Própria",
+      "poluicao": "5%",
+      "ano_coleta": 2023,
+      "latitude": -5.9,
+      "longitude": -35.22,
+      "estado": "Rio Grande do Norte"
+    },
+    {
+      "nome": "Praia do Espelho",
+      "pH": 7.5,
+      "condicao": "Própria",
+      "poluicao": "3%",
+      "ano_coleta": 2023,
+      "latitude": -16.723556946995863, 
+      "longitude": -39.12130785559331,
+      "estado": "Bahia"
+    },
+    {
+      "nome": "Praia da Cueira",
+      "pH": 7.4,
+      "condicao": "Própria",
+      "poluicao": "4%",
+      "ano_coleta": 2023,
+      "latitude": -13.59239930650848,
+      "longitude": -38.91352686286515,
+      "estado": "Bahia"
+    },
+    {
+      "nome": "Praia de Itacimirim",
+      "pH": 7.6,
+      "condicao": "Própria",
+      "poluicao": "5%",
+      "ano_coleta": 2023,
+      "latitude": -12.636693944871226,
+      "longitude": -38.050170686447004,
+      "estado": "Bahia"
+    },
+    {
+      "nome": "Praia da Sepultura",
+      "pH": 7.5,
+      "condicao": "Própria",
+      "poluicao": "2%",
+      "ano_coleta": 2023,
+      "latitude": -27.14143790405076,
+      "longitude": -48.4778767082255,
+      "estado": "Santa Catarina"
+    },
+    {
+      "nome": "Praia da Ferrugem",
+      "pH": 7.4,
+      "condicao": "Própria",
+      "poluicao": "3%",
+      "ano_coleta": 2023,
+      "latitude": -28.078562062227245,
+      "longitude": -48.62838383452067,
+      "estado": "Santa Catarina"
+    },
+    {
+      "nome": "Praia Mole",
+      "pH": 7.6,
+      "condicao": "Própria",
+      "poluicao": "4%",
+      "ano_coleta": 2023,
+      "latitude": -27.602174467692613,
+      "longitude": -48.43251375834213,
+      "estado": "Santa Catarina"
+    }
+  ],
+  "metadados": {
+    "ano_coleta": 2023,
+    "fonte": "Dados compilados de fontes diversas",
+    "ultima_atualizacao": "2025-05-22",
+    "total_praias": 41,
+    "praias_proprias": 35,
+    "praias_improprias": 6,
+    "estados": [
+      "Alagoas",
+      "Bahia",
+      "Maranhão",
+      "Rio Grande do Norte",
+      "Santa Catarina"
+    ]
+  }
+}

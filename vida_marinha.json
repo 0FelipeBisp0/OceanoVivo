@@ -1,0 +1,119 @@
+{
+  "estados": {
+    "Maranhão": {
+      "descricao": "O litoral do Maranhão possui uma rica biodiversidade marinha, com destaque para seus manguezais, que são berçários naturais para diversas espécies.",
+      "especies": [
+        {
+          "nome": "Peixe-boi-marinho",
+          "nome_cientifico": "Trichechus manatus",
+          "descricao": "Mamífero aquático herbívoro que pode atingir até 4 metros de comprimento. É uma espécie ameaçada de extinção que habita as águas costeiras do Maranhão.",
+          "imagem": "peixe_boi_maranhao.jpg"
+        },
+        {
+          "nome": "Mero",
+          "nome_cientifico": "Epinephelus itajara",
+          "descricao": "Um dos maiores peixes de recife do Atlântico, podendo pesar mais de 400kg. Está criticamente ameaçado de extinção devido à pesca predatória.",
+          "imagem": "mero_maranhao.jpg"
+        },
+        {
+          "nome": "Caranguejo-uçá",
+          "nome_cientifico": "Ucides cordatus",
+          "descricao": "Espécie típica dos manguezais maranhenses, fundamental para o ecossistema e importante recurso econômico para comunidades locais.",
+          "imagem": "caranguejo_uca_maranhao.jpg"
+        }
+      ]
+    },
+    "Bahia": {
+      "descricao": "O litoral baiano abriga o maior banco de corais do Atlântico Sul, com destaque para o Parque Nacional Marinho dos Abrolhos, um santuário de biodiversidade.",
+      "especies": [
+        {
+          "nome": "Baleia Jubarte",
+          "nome_cientifico": "Megaptera novaeangliae",
+          "descricao": "Migra anualmente para a costa da Bahia para reprodução e cria de filhotes. Pode atingir 16 metros de comprimento e é conhecida por seus saltos espetaculares.",
+          "imagem": "baleia_jubarte_bahia.jpg"
+        },
+        {
+          "nome": "Coral-cérebro",
+          "nome_cientifico": "Mussismilia braziliensis",
+          "descricao": "Espécie de coral endêmica do Brasil, encontrada principalmente nos recifes de Abrolhos. Fundamental para a formação dos únicos recifes em forma de 'chapeirão' do mundo.",
+          "imagem": "coral_cerebro_bahia.jpg"
+        },
+        {
+          "nome": "Tartaruga-de-pente",
+          "nome_cientifico": "Eretmochelys imbricata",
+          "descricao": "Criticamente ameaçada de extinção, utiliza as praias da Bahia como importante área de desova. Reconhecida pelo casco com escudos sobrepostos.",
+          "imagem": "tartaruga_pente_bahia.jpg"
+        }
+      ]
+    },
+    "Rio Grande do Norte": {
+      "descricao": "O litoral do Rio Grande do Norte é conhecido por suas águas cristalinas e recifes de corais, abrigando uma diversidade de espécies marinhas.",
+      "especies": [
+        {
+          "nome": "Golfinho-rotador",
+          "nome_cientifico": "Stenella longirostris",
+          "descricao": "Conhecido por suas acrobacias aéreas, é frequentemente avistado em Fernando de Noronha e na costa potiguar. Vive em grupos numerosos e é uma atração turística.",
+          "imagem": "golfinho_rotador_rn.webp"
+        },
+        {
+          "nome": "Tartaruga-oliva",
+          "nome_cientifico": "Lepidochelys olivacea",
+          "descricao": "A menor das tartarugas marinhas, utiliza as praias do RN como importante área de desova. Está ameaçada de extinção.",
+          "imagem": "tartaruga_oliva_rn.jpg"
+        },
+        {
+          "nome": "Cavalo-marinho",
+          "nome_cientifico": "Hippocampus reidi",
+          "descricao": "Encontrado em águas rasas e estuários do RN, este peixe peculiar está ameaçado pela degradação de seu habitat e coleta para aquários.",
+          "imagem": "cavalo_marinho_rn.jpg"
+        }
+      ]
+    },
+    "Alagoas": {
+      "descricao": "O litoral alagoano é conhecido por suas piscinas naturais e recifes de corais, que abrigam uma grande diversidade de peixes coloridos e outros organismos marinhos.",
+      "especies": [
+        {
+          "nome": "Peixe-boi-marinho",
+          "nome_cientifico": "Trichechus manatus",
+          "descricao": "Alagoas abriga importantes áreas de conservação para esta espécie ameaçada, especialmente na região da APA Costa dos Corais.",
+          "imagem": "peixe_boi_alagoas.jpg"
+        },
+        {
+          "nome": "Budião-azul",
+          "nome_cientifico": "Scarus trispinosus",
+          "descricao": "Peixe endêmico do Brasil, de coloração azul vibrante, fundamental para a saúde dos recifes de coral por se alimentar de algas.",
+          "imagem": "budiao_azul_alagoas.jpg"
+        },
+        {
+          "nome": "Estrela-do-mar",
+          "nome_cientifico": "Oreaster reticulatus",
+          "descricao": "Comum nas piscinas naturais de Alagoas, esta grande estrela-do-mar pode atingir 50 cm de diâmetro e é um importante predador de invertebrados.",
+          "imagem": "estrela_mar_alagoas.jpg"
+        }
+      ]
+    },
+    "Santa Catarina": {
+      "descricao": "O litoral catarinense representa uma zona de transição entre águas tropicais e temperadas, resultando em uma biodiversidade marinha única e diversificada.",
+      "especies": [
+        {
+          "nome": "Baleia Franca",
+          "nome_cientifico": "Eubalaena australis",
+          "descricao": "Migra anualmente para a costa catarinense para reprodução e cria de filhotes. É uma espécie que esteve à beira da extinção e hoje está em recuperação.",
+          "imagem": "baleia_franca_sc.jpg"
+        },
+        {
+          "nome": "Toninha",
+          "nome_cientifico": "Pontoporia blainvillei",
+          "descricao": "Pequeno golfinho criticamente ameaçado de extinção, endêmico da costa sul e sudeste do Brasil. É uma das menores espécies de cetáceos do mundo.",
+          "imagem": "toninha_sc.jpg"
+        },
+        {
+          "nome": "Lobo-marinho",
+          "nome_cientifico": "Arctocephalus australis",
+          "descricao": "Visita regularmente o litoral catarinense, especialmente durante o inverno. Possui pelagem densa e pode mergulhar a grandes profundidades.",
+          "imagem": "lobo_marinho_sc.jpg"
+        }
+      ]
+    }
+  }
+}

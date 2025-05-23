@@ -1,0 +1,531 @@
+:root {
+    --primary-color: #0277bd;
+    --secondary-color: #00b0ff;
+    --accent-color: #00e5ff;
+    --warning-color: #ff9800;
+    --danger-color: #f44336;
+    --success-color: #4caf50;
+    --text-color: #333333;
+    --light-text: #ffffff;
+    --background-color: #f5f5f5;
+    --card-background: #ffffff;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --border-radius: 8px;
+    --transition: all 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+.notification-container {
+        display: none;
+        position: fixed;
+        top: 1rem;
+        right: 1rem;
+        padding: 1rem 1.5rem;
+        border-radius: 5px;
+        position: fixed;
+        top: 20px;
+        left: 15%;
+        transform: translateX(-50%);
+        z-index: 1000;
+        width: 90%;
+        max-width: 500px;
+      }
+      .notification-container.visible {
+        display: block;
+      }
+      .notification button {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        font-size: 1.2rem;
+        color: #0077cc;
+        float: right;
+      }
+
+
+.notification {
+    background-color: var(--primary-color);
+    color: var(--light-text);
+    padding: 15px 20px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    display: flex;
+    align-items: center;
+    animation: slideDown 0.5s ease;
+}
+
+.notification i {
+    font-size: 1.5rem;
+    margin-right: 15px;
+}
+
+.notification p {
+    flex: 1;
+}
+
+#close-notification {
+    background: none;
+    border: none;
+    color: var(--light-text);
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: var(--light-text);
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+.logo-container i {
+    font-size: 2.5rem;
+    margin-right: 1rem;
+}
+
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.tagline {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+/* Main Content */
+main {
+    padding: 2rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Search Section */
+.search-section {
+    margin-bottom: 2rem;
+}
+
+.search-container {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background-color: var(--card-background);
+    border-radius: var(--border-radius);
+    padding: 0.5rem 1rem;
+    box-shadow: var(--shadow);
+}
+
+.search-box i {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+#search-input {
+    flex: 1;
+    border: none;
+    padding: 0.8rem 0;
+    font-size: 1rem;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+#geolocation-btn {
+    background: none;
+    border: none;
+    color: var(--primary-color);
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    transition: var(--transition);
+}
+
+#geolocation-btn:hover {
+    color: var(--secondary-color);
+}
+
+.search-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: var(--card-background);
+    border-radius: 0 0 var(--border-radius) var(--border-radius);
+    box-shadow: var(--shadow);
+    max-height: 300px;
+    overflow-y: auto;
+    z-index: 10;
+    display: none;
+}
+
+.search-results.active {
+    display: block;
+}
+
+.search-result-item {
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.search-result-item:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Beach Info Section */
+.beach-info-section {
+    margin-bottom: 2rem;
+}
+
+.beach-info-container {
+    background-color: var(--card-background);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    padding: 2rem;
+}
+
+.beach-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.beach-header h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.beach-status {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    background-color: #f0f0f0;
+}
+
+.status-indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 8px;
+    background-color: #ccc;
+}
+
+.status-indicator.proper {
+    background-color: var(--success-color);
+}
+
+.status-indicator.improper {
+    background-color: var(--danger-color);
+}
+
+.beach-details {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.detail-card {
+    display: flex;
+    align-items: center;
+    padding: 1.2rem;
+    background-color: #f9f9f9;
+    border-radius: var(--border-radius);
+    transition: var(--transition);
+}
+
+.detail-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow);
+}
+
+.detail-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    color: var(--light-text);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+.detail-icon i {
+    font-size: 1.5rem;
+}
+
+.detail-info h3 {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 0.3rem;
+}
+
+.detail-info p {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/* Alert Box */
+.alert-box {
+    display: none;
+    background-color: #fff3e0;
+    border-left: 4px solid var(--warning-color);
+    padding: 1.2rem;
+    border-radius: var(--border-radius);
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: flex-start;
+}
+
+.alert-box.danger {
+    background-color: #ffebee;
+    border-left-color: var(--danger-color);
+}
+
+.alert-icon {
+    color: var(--warning-color);
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.alert-box.danger .alert-icon {
+    color: var(--danger-color);
+}
+
+.alert-content h3 {
+    margin-bottom: 0.5rem;
+    color: var(--warning-color);
+}
+
+.alert-box.danger .alert-content h3 {
+    color: var(--danger-color);
+}
+
+/* Beach Map */
+.beach-map {
+    margin-top: 2rem;
+}
+
+.beach-map h3 {
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+}
+
+#map-container {
+    height: 300px;
+    background-color: #f0f0f0;
+    border-radius: var(--border-radius);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary-color);
+    color: var(--light-text);
+    padding: 3rem 1rem 1rem;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section h3 {
+    margin-bottom: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-section p {
+    margin-bottom: 0.5rem;
+    opacity: 0.9;
+}
+
+.footer-section i {
+    margin-right: 0.5rem;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Animations */
+@keyframes slideDown {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .beach-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .beach-status {
+        align-self: flex-start;
+    }
+    
+    .detail-card {
+        padding: 1rem;
+    }
+    
+    .detail-icon {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .detail-icon i {
+        font-size: 1.2rem;
+    }
+    
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Utility Classes */
+.hidden {
+    display: none !important;
+}
+
+.visible {
+    display: flex !important;
+}
+
+
+/* Estilo do botão */
+.btn-fontes {
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.btn-fontes:hover {
+  background-color: #005fa3;
+}
+
+/* Modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  overflow-y: auto;
+  padding-top: 60px;
+}
+
+/* Conteúdo do modal */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  width: 90%;
+  max-width: 800px;
+  border-radius: 12px;
+  position: relative;
+  animation: slideIn 0.3s ease;
+}
+
+/* Animação de entrada */
+@keyframes slideIn {
+  from { top: -300px; opacity: 0 }
+  to { top: 0; opacity: 1 }
+}
+
+/* Fechar modal */
+.close {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+}
+#not-done-label {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  pointer-events: none; /* Permite clicar nos elementos atrás */
+}
+
+#not-done-label h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: rgba(200, 0, 0, 0.8);
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  pointer-events: none;
+}
+
+.modal-section {
+  margin-bottom: 20px;
+}
+
+.modal-section h3 {
+  color: #0077cc;
+}
+
+.modal-section ul {
+  padding-left: 20px;
+}
+
+.modal-section ul li {
+  margin: 6px 0;
+}
+
