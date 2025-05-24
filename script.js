@@ -208,7 +208,7 @@ function displayBeachInfo(beach) {
         const pollutionLevel = parseInt(beach.poluicao);
         let alertMessage = 'Esta praia está imprópria para banho. Recomendamos evitar contato com a água.';
         
-        if (pollutionLevel > 15) {
+        if (pollutionLevel > 11) {
             alertMessage += ' Níveis elevados de poluição podem causar problemas de saúde como infecções gastrointestinais, de pele e respiratórias.';
         } else {
             alertMessage += ' O contato com a água pode causar problemas de saúde como irritações na pele e olhos.';
