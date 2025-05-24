@@ -32,7 +32,7 @@ body {
     display: none;
     position: fixed;
     top: 20px;
-    left: 15%;
+    left: 25%;
     transform: translateX(-50%);
     z-index: 1000;
     width: 90%;
@@ -482,7 +482,7 @@ footer {
 }
 
 /* Responsividade */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     header h1 {
         font-size: 2rem;
     }
@@ -504,11 +504,14 @@ footer {
     main {
         padding: 1rem;
     }
+    .notification-container {
+    display: none;
+    position: relative;
+    align-items: center;
+    transform: translateX(-50%);
+    left: 50%;
 
-}
-
-@media (max-width: 800px) {
-    header h1 {
+header h1 {
         font-size: 1.5rem;
     }
 
@@ -535,4 +538,7 @@ footer {
     .detail-icon {
         margin-bottom: 0.5rem;
     }
+
 }
+}
+
