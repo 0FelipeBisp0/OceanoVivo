@@ -483,6 +483,10 @@ footer {
 
 /* Responsividade */
 @media (max-width: 1000px) {
+    .footer-content {
+    text-align: center;
+}
+
     header h1 {
         font-size: 2rem;
     }
@@ -510,6 +514,7 @@ footer {
     align-items: center;
     transform: translateX(-50%);
     left: 50%;
+    }
 
 header h1 {
         font-size: 1.5rem;
@@ -540,5 +545,5 @@ header h1 {
     }
 
 }
-}
+
 
