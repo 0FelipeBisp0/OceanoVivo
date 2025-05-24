@@ -44,7 +44,7 @@ function renderMarineLifeSection(state) {
     // Construir HTML da seção de vida marinha
     let marineLifeHTML = `
         <div class="marine-life-container">
-            <h3>Vida Marinha de ${state}</h3>
+            <h3>Vida Marinha ${state}</h3>
             <p class="marine-life-description">${marineLifeData.descricao}</p>
             <div class="marine-life-species">
     `;

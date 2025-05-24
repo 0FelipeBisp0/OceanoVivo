@@ -1,6 +1,6 @@
 {
   "estados": {
-    "Maranhão": {
+    "do Maranhão": {
       "descricao": "O litoral do Maranhão possui uma rica biodiversidade marinha, com destaque para seus manguezais, que são berçários naturais para diversas espécies.",
       "especies": [
         {
@@ -23,7 +23,7 @@
         }
       ]
     },
-    "Bahia": {
+    "da Bahia": {
       "descricao": "O litoral baiano abriga o maior banco de corais do Atlântico Sul, com destaque para o Parque Nacional Marinho dos Abrolhos, um santuário de biodiversidade.",
       "especies": [
         {
@@ -46,7 +46,7 @@
         }
       ]
     },
-    "Rio Grande do Norte": {
+    "do Rio Grande do Norte": {
       "descricao": "O litoral do Rio Grande do Norte é conhecido por suas águas cristalinas e recifes de corais, abrigando uma diversidade de espécies marinhas.",
       "especies": [
         {
@@ -69,7 +69,7 @@
         }
       ]
     },
-    "Alagoas": {
+    "de Alagoas": {
       "descricao": "O litoral alagoano é conhecido por suas piscinas naturais e recifes de corais, que abrigam uma grande diversidade de peixes coloridos e outros organismos marinhos.",
       "especies": [
         {
@@ -92,7 +92,7 @@
         }
       ]
     },
-    "Santa Catarina": {
+    "de Santa Catarina": {
       "descricao": "O litoral catarinense representa uma zona de transição entre águas tropicais e temperadas, resultando em uma biodiversidade marinha única e diversificada.",
       "especies": [
         {

@@ -115,31 +115,31 @@ function renderSearchResults(results) {
 function identifyBeachState(beach) {
     // Mapeamento de coordenadas para estados
     const stateCoordinates = {
-        "Maranhão": {
+        "do Maranhão": {
             minLat: -10.0,
             maxLat: -1.0,
             minLng: -48.0,
             maxLng: -41.0
         },
-        "Alagoas": {
+        "de Alagoas": {
             minLat: -10.5,
             maxLat: -8.5,
             minLng: -38.5,
             maxLng: -35.0
         },
-        "Rio Grande do Norte": {
+        "do Rio Grande do Norte": {
             minLat: -7.0,
             maxLat: -4.5,
             minLng: -38.5,
             maxLng: -34.5
         },
-        "Bahia": {
+        "da Bahia": {
             minLat: -18.5,
             maxLat: -8.5,
             minLng: -46.5,
             maxLng: -37.0
         },
-        "Santa Catarina": {
+        "de Santa Catarina": {
             minLat: -30.0,
             maxLat: -25.5,
             minLng: -54.0,
@@ -178,7 +178,7 @@ function identifyBeachState(beach) {
         }
     }
 
-    return closestState || "Maranhão"; // Fallback para Maranhão se não encontrar
+    return closestState || "do Maranhão"; // Fallback para Maranhão se não encontrar
 }
 
 // Exibir informações da praia

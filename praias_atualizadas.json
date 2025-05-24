@@ -414,11 +414,11 @@
     "praias_proprias": 35,
     "praias_improprias": 6,
     "estados": [
-      "Alagoas",
-      "Bahia",
-      "Maranhão",
-      "Rio Grande do Norte",
-      "Santa Catarina"
+      "de Alagoas",
+      "da Bahia",
+      "do Maranhão",
+      "do Rio Grande do Norte",
+      "de Santa Catarina"
     ]
   }
 }
