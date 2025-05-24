@@ -101,7 +101,7 @@
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .species-card {
         flex-direction: column;
     }
