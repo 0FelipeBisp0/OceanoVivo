@@ -1,1 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Oceano Vivo - Monitoramento de Praias do Maranhão</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="marine_life.css" />
+  <link rel="stylesheet" href="placeholder.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
 
+<body>
+  <div class="notification-container visible" id="notification-container">
+    <div class="notification" id="notification">
+      <i class="fas fa-info-circle"></i>
+      <p id="notification-text">Carregando mensagem de conscientização...</p>
+      <button id="close-notification" aria-label="Fechar notificação"><i class="fas fa-times"></i></button>
+    </div>
+  </div>
+
+  <header>
+    <div class="logo-container">
+      <i class="fas fa-water"></i>
+      <h1>Oceano Vivo</h1>
+    </div>
+    <p class="tagline">Monitoramento de Praias</p>
+  </header>
+
+  <main>
+    <section class="search-section">
+      <div class="search-container">
+        <div class="search-box">
+          <i class="fas fa-search"></i>
+          <input type="text" id="search-input" placeholder="Buscar praia..." />
+          <button id="geolocation-btn" title="Usar minha localização">
+            <i class="fas fa-map-marker-alt"></i>
+          </button>
+        </div>
+        <div id="search-results" class="search-results"></div>
+      </div>
+    </section>
+
+    <section class="beach-info-section" id="beach-info-section">
+      <div class="beach-info-container" id="beach-info-container">
+        <div class="beach-header">
+          <h2 id="beach-name">Selecione uma praia</h2>
+          <div class="beach-status" id="beach-status">
+            <span class="status-indicator"></span>
+            <span class="status-text">Status</span>
+          </div>
+        </div>
+
+        <div class="beach-details">
+          <div class="detail-card">
+            <div class="detail-icon"><i class="fas fa-flask"></i></div>
+            <div class="detail-info"><h3>pH da Água</h3><p id="beach-ph">-</p></div>
+          </div>
+          <div class="detail-card">
+            <div class="detail-icon"><i class="fas fa-trash-alt"></i></div>
+            <div class="detail-info"><h3>Poluição</h3><p id="beach-pollution">-</p></div>
+          </div>
+          <div class="detail-card">
+            <div class="detail-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="detail-info"><h3>Coordenadas</h3><p id="beach-coordinates">-</p></div>
+          </div>
+        </div>
+
+        <div class="alert-box" id="alert-box">
+          <div class="alert-icon"><i class="fas fa-exclamation-triangle"></i></div>
+          <div class="alert-content">
+            <h3>Alerta!</h3>
+            <p id="alert-message">Esta praia está imprópria para banho. Recomendamos evitar contato com a água.</p>
+          </div>
+        </div>
+
+        <div class="beach-map" id="beach-map">
+          <h3>Localização</h3>
+          <div id="map-container">
+            <p class="map-placeholder">Selecione uma praia para ver a localização</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="marine-life-section hidden" id="marine-life-section">
+      <!-- Conteúdo gerado por JS -->
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Oceano Vivo</h3>
+        <p>Monitorando a qualidade das praias do Maranhão para sua segurança e conscientização ambiental.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Fonte dos Dados</h3>
+        <button id="openModal" class="btn-fontes">Ver Fontes de Dados</button>
+        <p>Última atualização: <span id="last-update">Carregando...</span></p>
+      </div>
+      <div class="footer-section">
+        <h3>Contato</h3>
+        <p><i class="fas fa-envelope"></i> contato@oceanovivo.com.br</p>
+        <p><i class="fas fa-phone"></i> (98) 3000-0000</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Oceano Vivo. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Modal -->
+  <div id="fontesModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Fontes de Dados da Vida Marinha</h2>
+
+      <div class="modal-section">
+        <h3>Maranhão</h3>
+        <ul>
+          <li><a href="https://labaqua.com.br/wp-content/uploads/2020/01/Biodiversida-de-Marinha-da-Ilha-do-Maranhao.pdf" target="_blank">Biodiversidade Marinha da Ilha do Maranhão</a></li>
+          <li><a href="https://labaqua.com.br/wp-content/uploads/2020/01/Peixes_Marinhos_e_Estuarinos_do_MA.pdf" target="_blank">Peixes Marinhos e Estuarinos do Maranhão</a></li>
+          <li><a href="https://www.sema.ma.gov.br/" target="_blank">Parque Estadual Marinho do Parcel de Manuel Luís</a></li>
+        </ul>
+      </div>
+
+      <div class="modal-section">
+        <h3>Bahia</h3>
+        <ul>
+          <li><a href="https://www.icmbio.gov.br/portal/unidadesdeconservacao/biomas-brasileiros/marinho/unidades-de-conservacao-marinho/2267-parna-marinho-dos-abrolhos" target="_blank">Parque Nacional Marinho dos Abrolhos</a></li>
+          <li><a href="https://www.tamar.org.br/" target="_blank">Projeto Tamar - Praia do Forte</a></li>
+          <li><a href="http://cienciasbahia.org.br/webinarios/wp-content/uploads/2022/05/acb_GT_ciencias_marinhas.pdf" target="_blank">Ciências Marinhas na Bahia</a></li>
+        </ul>
+      </div>
+
+      <div class="modal-section">
+        <h3>Rio Grande do Norte</h3>
+        <ul>
+          <li><a href="https://www.pccbuern.org/tartarugas-marinhas" target="_blank">Projeto Tartarugas Marinhas</a></li>
+          <li><a href="https://www.tamar.org.br/noticia1.php?cod=951" target="_blank">Constelação das Tartarugas-de-Pente</a></li>
+          <li>Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio)</li>
+        </ul>
+      </div>
+
+      <div class="modal-section">
+        <h3>Alagoas</h3>
+        <ul>
+          <li><a href="https://noticias.ufal.br/" target="_blank">Espécies Endêmicas da Fauna Marinha</a></li>
+          <li>Mamíferos Marinhos da Bacia de Sergipe-Alagoas (ResearchGate)</li>
+          <li><a href="https://www.institutobiota.org.br/" target="_blank">Instituto Biota</a></li>
+        </ul>
+      </div>
+
+      <div class="modal-section">
+        <h3>Santa Catarina</h3>
+        <ul>
+          <li><a href="https://biodiversidade.ufsc.br/ebook/Livro_Web.pdf" target="_blank">Biodiversidade Marinha de SC</a></li>
+          <li>Conservação da Biodiversidade (ICMBio)</li>
+          <li><a href="http://www.avesmarinhas.com.br/" target="_blank">Projeto Aves Marinhas</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Notificação
+      document.getElementById('close-notification').addEventListener('click', function () {
+        document.getElementById('notification-container').classList.remove('visible');
+      });
+
+      // Modal
+      const modal = document.getElementById("fontesModal");
+      const btn = document.getElementById("openModal");
+      const span = document.querySelector(".close");
+
+      btn.addEventListener("click", () => modal.style.display = "block");
+      span.addEventListener("click", () => modal.style.display = "none");
+      window.addEventListener("click", (e) => {
+        if (e.target === modal) modal.style.display = "none";
+      });
+    });
+  </script>
+
+  <script src="marine_life.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
